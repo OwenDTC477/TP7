@@ -1,0 +1,88 @@
+* {
+  box-sizing: border-box;
+}
+  @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
+
+li {
+  font-family: bahnschrift;
+}
+
+#ingredients li { 
+  font-family: bahnschrift;
+}
+
+#equipment li:nth-child(3) {
+  
+}
+
+h1 {
+  font-family: 'Pacifico', cursive;
+  font-size: 60px;
+  color: #074FEE;
+   
+}
+
+h1.largerFont {
+  font-size: 120px;
+}
+
+
+h2 {
+  font-family: 'Pacifico', cursive;
+  font-size: 30px;
+  color: #27417B;
+   
+}
+
+h4 {
+  font-family: 'Comic sans', sans-serif;
+  font-size: 22px;
+  text-decoration: underline;
+}
+
+#highlight {
+  background-color: red;
+}
+
+p {
+  font-family: Arial;
+  color: Blue;
+}
+
+.recipe {
+  color: Green;
+  text-shadow: 0px 0px 8px light Green;
+}    
+
+
+div {
+  display: inline-block; 
+  float: left;
+  width: calc(100vw/3 - 2vw);
+  background-color: #fcc;
+  padding: 1vw;
+}
+
+
+#column2 {
+  background-color:	#000000;
+}
+
+#column3 {
+  background-color: #fcc;
+}
+
+
+
+
+/* from the demo on responsive design */
+
+@media (orientation: portrait) {
+  
+  div {
+    width: 100vw;
+  }
+  
+}
+
